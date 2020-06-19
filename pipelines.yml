@@ -39,7 +39,7 @@ pipelines:
             imageName: ${res_app_docker_imageName}
             imageTag: ${res_app_docker_imageTag}
           integrations:
-            - name: demo_jenkins
+            - name: jenkins
           outputResources:
             - name: app_test_results
 
